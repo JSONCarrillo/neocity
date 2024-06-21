@@ -2,13 +2,20 @@
     padding: 0;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
+    cursor:url(cursor.png),auto;
 }
 
 body{
-    height: 100vh;
-    max-height: 100vh;
-    width: 100vw;
     background-image: url(bg-1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    background-color: black;
+    width: 75%;
+    height: 100vh;
 }
 
 section{
@@ -69,6 +76,7 @@ section{
     border: 3px solid blue;
     padding: 0;
     margin: 0;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .box{

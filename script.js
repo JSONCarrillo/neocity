@@ -35,7 +35,10 @@ const messages = [
     "I miss the old internet",
     "Made with Javascript",
     "Neocities Rules!",
-    "Inspect the Console!"
+    "Inspect the Console!",
+    "Certified Halo Nerd",
+    "Source Code on Github!",
+    ""
 ]
 
 
