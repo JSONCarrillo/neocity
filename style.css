@@ -17,16 +17,25 @@ body{
     background: url(src/imgs/background.png);
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 section{
     background-color: black;
     height: 100vh;
     width: 75%;
+    overflow-y: scroll;
 }
 
 section > * {
     margin: 10px;
+}
+
+.split-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
 }
 
 /* HOME */
@@ -70,6 +79,18 @@ nav{
     padding: 10px;
 }
 
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+ul, ol{
+    padding: 25px;
+}
+
 /* Content Section */
 .content{
     display: flex;
@@ -85,6 +106,19 @@ nav{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+}
+
+.padded{
+    padding: 10px;
+}
+
+.panel > h2, .panel > h4{
+    background-color: darkgreen;
+    padding: 10px
+}
+
+.panel > p{
+    padding: 10px;
 }
 
 
@@ -166,4 +200,21 @@ nav{
 
 .tux{
     position: absolute;
+}
+
+
+/* ABOUT */
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-10s{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 5px;
+    column-gap: 10px;
+    justify-content: center;
 }
