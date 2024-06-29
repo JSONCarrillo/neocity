@@ -1,0 +1,11 @@
+{
+  "name": "neocity",
+  "version": "1.0.0",
+  "description": "neocities",
+  "main": "script.js",
+  "scripts": {
+    "start" : ""
+  },
+  "author": "JSON",
+  "license": "ISC"
+}

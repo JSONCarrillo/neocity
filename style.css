@@ -253,3 +253,9 @@ footer{
         display: none;
     }
 }
+
+/* GUESTBOOK */
+
+input, textarea, button{
+    color: black;
+}
