@@ -259,3 +259,11 @@ footer{
 input, textarea, button{
     color: black;
 }
+
+.guestbook{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

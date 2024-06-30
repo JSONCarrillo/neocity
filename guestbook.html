@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>J's World</title>
     <link rel="stylesheet" href="./style.css">
-    <script type="module" src="./script.js" async></script>
+    <script src="./script.js" async></script>
+    <script type="module" src="./base.js"></script>
 </head>
 <body>
     <section>
@@ -21,7 +22,7 @@
                 </ul>
             </nav>
             <!-- Content -->
-            <div class="content">
+            <div class="guestbook">
                 <div class="panel">
                     <form action="">
                         <input type="text" name="name" id="guestbook_name" required>
@@ -30,6 +31,7 @@
                         <button type="submit" onclick="collect_form_info">Sign!</button>
                     </form>
                 </div>
+                <div class="panel" id="guest"></div>
             </div>
         </div>
     </section>
