@@ -1,3 +1,8 @@
+setVersion = () => {
+     let version = document.getElementById('version')
+     version.innerHTML += "1.2"
+};
+setVersion();
 // Easter Egg
 const tux = `
          _nnnn_

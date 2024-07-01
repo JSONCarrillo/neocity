@@ -39,6 +39,10 @@ section > * {
 .container{
     min-width: 1200px;
 }
+
+.header > a {
+    text-decoration: none;
+}
 /* HOME */
 
 h1{
