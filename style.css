@@ -191,12 +191,12 @@ ul, ol{
     padding: 5px;
     border: 2px solid rgb(0, 224, 49);
     margin: 5px;
+    overflow-x: scroll;
 }
 
 /* LEFT SECTION */
 
 .left > .panel, .right > .panel {
-    min-height: 200px;
     text-align: center;
 }
 
