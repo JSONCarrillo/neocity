@@ -261,9 +261,36 @@ input, textarea, button{
 }
 
 .guestbook{
-    width: 1000px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.form-container{
+    display: flex;
+    padding: 10px;
+}
+
+#guestbook-form, .form-container > p {
+    width: 500px;
+}
+
+#guestbook-form > input {
+    width: 350px;
+}
+
+#guestbook-form > textarea{
+    width: 350px;
+    height: 200px;
+    resize: none;
+}
+
+.guestbook > div {
+    width: 1000px;
+}
+
+.signature{
+    padding: 10px;
 }

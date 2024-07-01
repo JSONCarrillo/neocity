@@ -1,21 +1,3 @@
-let guestbook_info = {
-     name : '',
-     siteURL : '',
-     Message : ''
-     }
-     
-/*
-let guestbook_form = {
-     name : Document.getElementbyID('guestbook_name'),
-     siteURL : Document.getElementbyID('guestbook_url'),
-     message : Document.getElementbyID('guestbook_message')
-}
-*/ 
-
-function collect_form_info(){
-     console.log("test");
-}
-
 // Easter Egg
 const tux = `
          _nnnn_
@@ -36,3 +18,8 @@ _)      \.___.,|       .'
      \`-'       \`--' Hey there!
 `
 console.log(tux)
+
+function onSubmit(token) {
+  document.getElementById("guestbook-form").submit();
+}
+

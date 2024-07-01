@@ -6,17 +6,19 @@
     <title>J's World</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js" async></script>
-    <script type="module" src="./base.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    
 </head>
 <body>
     <section>
         <div class="container">
             <div class="header">
-                <h1><img src="./src/gifs/globe.gif" alt="" srcset="">J's World <small>v1.1.1</small></h1>
+                <a href="./index.html" style="text-decoration: none;"><h1><img src="./src/gifs/globe.gif" alt="" srcset="">J's World <small>v1.0.1</small></h1></a>
                 <img src="./src/gifs/tux.gif" class="tux" alt="" srcset="">
             </div>
             <nav>
                 <ul class="links">
+                    <a class="link" href="./index.html">Home</a>
                     <a class="link" href="./about.html">About</a>
                     <li>Other Pages Coming Soon!</li>
                 </ul>
@@ -24,14 +26,20 @@
             <!-- Content -->
             <div class="guestbook">
                 <div class="panel">
-                    <form action="">
-                        <input type="text" name="name" id="guestbook_name" required>
-                        <input type="text" name="url" placeholder="Your Site's URL (optional)" id="guestbook_url">
-                        <textarea name="message" placeholder="Message" id="guestbook_message"></textarea>
-                        <button type="submit" onclick="collect_form_info">Sign!</button>
-                    </form>
+                    <h2>Lemme know you visited!</h2>
+                    <div class="form-container">
+                        <form id="guestbook-form">
+                            <input type="text" name="name" id="guestbook_name" placeholder="Name" required>
+                            <input type="text" name="url" placeholder="Your Site's URL (optional)" id="guestbook_url"><br>
+                            <textarea name="message" placeholder="Message" id="guestbook_message"></textarea><br>
+                            <button id="sign" type="submit">Submit</button>
+                        </form>
+                        <p>Note: Slurs, bigotry, and links to inappropriate material (i.e. NSFW, scams, etc.) will not be allowed and will either be barred from posting 
+                            or removed altogether. Don't be a dick, if your grandma wouldn't want to see it, don't post it.
+                        </p>
+                    </div>
                 </div>
-                <div class="panel" id="guest"></div>
+                <div id="guest"></div>
             </div>
         </div>
     </section>
@@ -42,5 +50,6 @@
         <h1>Thanks for visiting J's World!</h1>
         <h2>It looks like you're using a mobile device. Please switch to a desktop to view this web page in it's intent.</h2>
     </section>
+    <script type="module" src="./base.js"></script>
 </body>
 </html>
