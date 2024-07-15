@@ -8,10 +8,7 @@ when I stumbled upon Neocities, I fell in love. So, this website allows me to re
 It has, by far, become one of my favorite coding projects. Despite it's lack of complexity, the beauty to me is in it's "dated" UI and GIFs.
 
 ## Features Coming Soon
-
- - Blog : This will possibly be an API since I'm currently unsure of the capabilities of Neocities web-hosting. 
  - Mood Board : Basically a collection of inspirations
- - Guestbook : This will allow visitors to log and leave a little message. Will probably integrate a filter check to prevent obscene language.
  - Loungeroom : A place for people who are on the site presently to interact with other people who happen to be visiting at the same time
  - Jukebox : Music Player
  - Tech and Game Collection Pages : Basically a showcase of what currently is in my video game and technology collection. Remember it's not hoarding if it's organized ;)
